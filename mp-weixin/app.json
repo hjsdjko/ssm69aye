@@ -1,0 +1,101 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/shop-recharge/recharge",
+    "pages/shop-recharge/pay-confirm",
+    "pages/shop-cart/shop-cart",
+    "pages/shop-order-confirm/shop-order-confirm",
+    "pages/shop-address/shop-address",
+    "pages/shop-address-detail/shop-address-detail",
+    "pages/shop-order/shop-order",
+    "pages/shop-order/logistics",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/shangjia/list",
+    "pages/shangjia/add-or-update",
+    "pages/shangjia/detail",
+    "pages/chongwufenlei/list",
+    "pages/chongwufenlei/add-or-update",
+    "pages/chongwufenlei/detail",
+    "pages/chongwuxinxi/list",
+    "pages/chongwuxinxi/add-or-update",
+    "pages/chongwuxinxi/detail",
+    "pages/shangpinfenlei/list",
+    "pages/shangpinfenlei/add-or-update",
+    "pages/shangpinfenlei/detail",
+    "pages/chongwuyongpin/list",
+    "pages/chongwuyongpin/add-or-update",
+    "pages/chongwuyongpin/detail",
+    "pages/xiangmuleixing/list",
+    "pages/xiangmuleixing/add-or-update",
+    "pages/xiangmuleixing/detail",
+    "pages/fuwuxiangmu/list",
+    "pages/fuwuxiangmu/add-or-update",
+    "pages/fuwuxiangmu/detail",
+    "pages/xiangmuyuyue/list",
+    "pages/xiangmuyuyue/add-or-update",
+    "pages/xiangmuyuyue/detail",
+    "pages/chongwurizhi/list",
+    "pages/chongwurizhi/add-or-update",
+    "pages/chongwurizhi/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/discusschongwuxinxi/list",
+    "pages/discusschongwuxinxi/add-or-update",
+    "pages/discusschongwuxinxi/detail",
+    "pages/discusschongwuyongpin/list",
+    "pages/discusschongwuyongpin/add-or-update",
+    "pages/discusschongwuyongpin/detail",
+    "pages/discussfuwuxiangmu/list",
+    "pages/discussfuwuxiangmu/add-or-update",
+    "pages/discussfuwuxiangmu/detail",
+    "pages/discusschongwurizhi/list",
+    "pages/discusschongwurizhi/add-or-update",
+    "pages/discusschongwurizhi/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "宠物店商城小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#FF6308",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shop-cart/shop-cart",
+        "iconPath": "static/tabs/cart.png",
+        "selectedIconPath": "static/tabs/cart1.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
